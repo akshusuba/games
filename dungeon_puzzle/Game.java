@@ -223,7 +223,7 @@ public class Game {
             case "quit": System.exit(0); break;
             case "forward": goForward(); break;
             case "hint": showHint(); break;
-            case "search": handleSearchCommand(command, scanner); break;
+            case "search": handleSearchCommand(scanner); break;
             default: handleDefaultCommands(command);
         }
     }
@@ -735,7 +735,7 @@ public class Game {
         return right;
     }
 
-    private void handleSearchCommand(String command, Scanner scanner) {
+    private void handleSearchCommand(Scanner scanner) {
         System.out.println("Enter minimum value:");
         int minValue = scanner.nextInt();
         System.out.println("Enter maximum value:");
