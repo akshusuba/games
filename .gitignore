@@ -1,0 +1,39 @@
+# Compiled class files
+*.class
+
+# Package Files
+*.jar
+*.war
+*.ear
+
+# IDE specific files
+.idea/
+.vscode/
+*.iml
+*.iws
+*.ipr
+.settings/
+.project
+.classpath
+
+# Build directories
+bin/
+target/
+build/
+out/
+
+# Log files
+*.log
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Game specific files
+scores/
+dungeon_puzzle_scores.txt
+
+# Temporary files
+*~
+*.swp
+*.swo 
